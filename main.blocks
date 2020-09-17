@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="{s_KF+..GG^-lb[hwjk$">mySprite</variable><variable type="KIND_SpriteKind" id="{Uq;yKE-,63=uTnBw%yN">Player</variable><variable type="KIND_SpriteKind" id="%rdd@F!gWciuz:4[ruM}">Projectile</variable><variable type="KIND_SpriteKind" id="fFU2)NPG!x+Ew47BF@G]">Food</variable><variable type="KIND_SpriteKind" id="{`a9I?|}9o]Cs:.11-_^">Enemy</variable></variables><block type="pxt-on-start" id="g;;E=gQNx4rs4[@{3ge3" x="0" y="0"><statement name="HANDLER"><block type="gameSplash" id="0@CtoEaC1VA|?a)9yCIU"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="title"><shadow type="text" id="nbz0XFiv(,aF;mzp5,Vu"><field name="TEXT">one shall rise one shall fall</field></shadow></value><next><block type="gameSplash" id="/b|FaKY3K)ibMM*,vX+P"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="title"><shadow type="text" id="DQwAG(Uz=AG,wgjNz/W1"><field name="TEXT">by Jake pedersen</field></shadow></value><next><block type="variables_set" id="FFSA5`|V:;4^@]gm7e(Z"><field name="VAR" id="{s_KF+..GG^-lb[hwjk$">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="H7sU0v,Sk-`%TXd4x(./"><value name="img"><shadow type="screen_image_picker" id="V!Ler25q0riDI+;0ntla"><field name="img">img`
+. . . . . . f f f f . . . . . . 
+. . . . f f f 9 9 f f f . . . . 
+. . . f f f 9 9 9 9 f f f . . . 
+. . f f f 9 9 9 9 9 9 f f f . . 
+. . f f 9 9 9 9 9 9 9 9 9 f . . 
+. . f 9 9 f f f f f f 9 9 f . . 
+. . f f f f e e e e f f f f . . 
+. f f e f 4 f 4 4 f 4 f e f f . 
+. f e e 4 4 f 4 4 f 4 4 e e f . 
+. . f e e 4 4 4 4 4 4 e e f . . 
+. . . f e e 4 f f 4 e e f . . . 
+. . 4 4 f 9 9 9 9 9 9 f 4 4 . . 
+. . 4 4 f 9 9 9 9 9 9 f 4 4 . . 
+. . 4 4 f 9 9 9 9 9 9 f 4 4 . . 
+. . . . . f f f f f f . . . . . 
+. . . . . f f . . f f . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="_-n],fn?R[][2Td/-[~U"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="tilemap_editor" id="CS26bx#7,39IuKEQ.{mv"><field name="tilemap">tiles.createTilemap(hex`1000100001010101010101010101010101010101010000000000030000000000000000010100000000000000000000000000000101000000000000000000000000000001010000000000000000000000000000010100000000000000000000000000000101000000000000000000000000000001010000000000000000000000000000010100000000000000000000000202020101000000000000000000000000000001010000000000000000000000000000010100000000000000000000000000000101000000000000000000000000000001010000000000000000000000000000010100000000000000000000000000000101010101010104040101010101010101`, img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, [myTiles.transparency16,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4], TileScale.Sixteen)</field><next><block type="game_control_sprite" id="-%0*hFsb%2^b/h+w%+p0"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="{$q~W7olf(Ii_ij6r4W7"><field name="VAR" id="{s_KF+..GG^-lb[hwjk$">mySprite</field></block></value><next><block type="camerafollow" id="*PG8nkKO,,GY;C6#))a{"><value name="sprite"><block type="variables_get" id="_9p0i4a4r%SE9jXwGk@J"><field name="VAR" id="{s_KF+..GG^-lb[hwjk$">mySprite</field></block></value><next><block type="gamesetbackgroundcolor" id="?9tH$5xs[nQ@J*tkxZX_"><value name="color"><shadow type="colorindexpicker" id="V7KyVLYC{+X`jxJC)IWr"><field name="index">14</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
